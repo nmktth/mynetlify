@@ -1,74 +1,392 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Ильин Артём 241-3210</title>
+    <title>Aquarim</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fonts/gilroy/fonts.css">
+    <link rel="stylesheet" href="fonts/oceanic/fonts.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-          <a href="#" class="header_link">
-            <svg width="41" height="22" viewBox="0 0 41 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M35.875 0L0 22H41L35.875 0ZM5.125 0L17.0791 8.998L0 22L5.125 0Z" fill="white"/>
-            </svg>
-          </a>
-          <nav class="nav">
-            <ul class="nav_list li_reset">
-              <li class="nav_item">
-                <a href="#" class="nav_link">Platform</a>
-              </li>
-              <li class="nav_item">
-                <a href="#" class="nav_link">Midas Coin</a>
-              </li>
-              <li class="nav_item">
-                <a href="#" class="nav_link">YAPs</a>
-              </li>
+<header class="header">
+    <div class="container">
+        <nav class="navigation">
+            <a href="#" class="text_logo">AQUARIM</a>
+            <ul class="main_nav">
+                <li class="button_nav"><a href="#about-restaraunt">О ресторане</a></li>
+                <li class="button_nav"><a href="#menu">Меню</a></li>
+                <li class="button_nav"><a href="#delivery">Доставка и оплата</a></li>
+                <li class="button_nav"><a href="#contacts">Контакты</a></li>
             </ul>
-          </nav>
-          <button class="header_btn btn_reset">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 6C2.25 5.58579 2.58579 5.25 3 5.25H21C21.4142 5.25 21.75 5.58579 21.75 6C21.75 6.41421 21.4142 6.75 21 6.75H3C2.58579 6.75 2.25 6.41421 2.25 6ZM2.25 12C2.25 11.5858 2.58579 11.25 3 11.25H21C21.4142 11.25 21.75 11.5858 21.75 12C21.75 12.4142 21.4142 12.75 21 12.75H3C2.58579 12.75 2.25 12.4142 2.25 12ZM3 17.25C2.58579 17.25 2.25 17.5858 2.25 18C2.25 18.4142 2.58579 18.75 3 18.75H21C21.4142 18.75 21.75 18.4142 21.75 18C21.75 17.5858 21.4142 17.25 21 17.25H3Z" fill="white"/>
-            </svg>
-          </button>
-        </div>
-      </header>
-      <main class="main">
-        <section class="hero">
-            <div class="container">
-              <h1 class="hero_title">Midas token utility</h1>
-              <div class="top_list">
-                <ul class="list list_top li_reset">
-                  <li class="list_item">
-                    <h2 class="list_subtitle">Payout Split</h2>
-                    <p class="list_text">
-                      10% of rewards earned by Midas platform community is used to <span>buyback MIDAS token</span> from the open market
-                    </p>
-                  </li>
-                  <li class="list_item">
-                    <img src="images/hero-1.png">
-                  </li>
-                </ul>
-              </div>
-              <div class="bottom_list">
-                <ul class="list list_reset">
-                  <li class="list_item">
-                    <img src="images/hero-2.png">
-                  </li>
-                  <li class="list_item">
-                    <h2 class="list_subtitle">APY Boost</h2>
-                    <p class="list_text">10% of rewards earned by Midas platform community is used <span>to buyback MIDAS token</span> from the open market</p>
-                  </li>
-                </ul>
-              </div>
-              <button class="hero_btn btn_reset">Learn more -></button>
+            <button class="shop_cart"><img src="images/shop_cart.svg" alt="Корзина покупок."></button>
+            <button class="nav_open"><img src="images/menu_button.svg" alt="Кнопка навигации."></button>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="main">
+        <div class="container">
+            <div class="title_text"> <!-- Убрал лишний див, мб надо заменить этот на артикл, не шарю -->
+                <p class="top_part">AQUARIM</p>
+                <h1 class="bottom_part">
+                    <span>РЫБНЫЙ</span>
+                    <span>РЕСТОРАН</span>
+                </h1>
             </div>
-          </section>
-      </main>   
+            <img class="shrimp" src="images/shrimp.png" alt="">
+            <article class="main_tablet_flex">
+                <div class="tablet_menu_block">
+                    <p>
+                        Откройте для себя мир изысканных вкусов с нашими 
+                        рыбными деликатесами, приготовленными специально 
+                        для вас
+                    </p>
+                    <a class="button_menu_type orange_button" href="#menu">Меню</a>
+                </div>
+                <ul class="title_info tablet_menu_block">
+                    <li class="info">
+                        <img src="images/fish_icon.svg" alt="Иконка рыбы.">
+                        <p>Свежая рыба из наших аквариумов — гарантированная свежесть</p>
+                    </li>
+                    <li class="info">
+                        <img src="images/delivery_icon.svg" alt="Иконка доставки.">
+                        <p>Качественная доставка, где горячие блюда сохраняют свой вкус</p>
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="about" id="about-restaraunt">
+        <div class="container">
+            <div class="head_container">
+                <p class="container_names">О РЕСТОРАНЕ</p>
+                <h2 class="head_title">
+                    <span>ИСТОРИЯ РЫБНОГО</span>
+                    <span id="first_title_tablet">ИСКУШЕНИЯ</span>
+                </h2>
+            </div>
+            <div class="restaurant_history">
+                <picture>
+                    <source srcset="images/tablet_cook.png" media="(min-width: 768px)">
+                    <img src="images/cook.png" alt="Фотография повара.">
+                </picture>
+                <div class="history_text">
+                    <p>
+                        Наша история началась с мечты о создании места, 
+                        где каждый может насладиться непревзойденным 
+                        вкусом свежей рыбы прямо у себя дома. Мы поставили 
+                        перед собой задачу предложить нечто большее, чем 
+                        просто блюда из рыбы - мы хотели подарить вам настоящее 
+                        морское путешествие.
+                    </p>
+                    <p>Мы - это место, где каждая деталь имеет значение.</p>
+                    <a href="#" class="button_first_type blue_button">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="head_container">
+                <p class="container_names">МЕНЮ</p>
+                <h2 class="head_title">
+                    <span>БЛЮДА, КОТОРЫЕ НАВСЕГДА</span>
+                    <span id="first_title_tablet"> ЗАПОМНЯТСЯ ВАМ</span>  
+                </h2>
+            </div>
+            <div class="menu_top_list">
+                <ul class="list">
+                    <li class="list_tier">
+                        <article class="tier">
+                            <picture class="tier_photos">
+                                <img class="tier_photo" src="images/crab_food.png" alt="Фотография блюда">
+                            </picture>
+                            <div class="tier_info">
+                                <h3 class="tier_name">МОРСКОЙ БРИЗ</h3>
+                                <p class="tier_description">
+                                    Тарелка морепродуктов, включающая сочные кусочки краба, 
+                                    ароматные креветки и нежные мидии, подается с фирменным 
+                                    соусом и свежими зелеными травами
+                                </p>
+                                <div class="tier_product">
+                                    <span class="tier_price">1300 рублей</span>
+                                    <span class="tier_weight">150 г</span>
+                                </div>
+                                <button class="button_second_type orange_button">В корзину</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+                <div class="list_navigation">
+                    <button class="previous"><img src="images/previous.svg" alt=""></button>
+                    <button class="next"><img src="images/next.svg" alt=""></button>
+                </div>
+            </div>
+            <a href="#menu" class="button_first_type blue_button">Перейти в меню</a>
+        </div>
+    </section>
+
+    <section class="delivery" id="delivery">
+        <div class="container">
+            <div class="head_container">
+                <p class="container_names">ДОСТАВКА</p>
+                <h2 class="head_title">
+                    <span>БЫСТРО, УДОБНО, НАДЕЖНО</span>
+                    <span id="first_title_tablet">ДОСТАВКА ПО МОСКВЕ И МО</span>  
+                </h2>
+            </div>
+            <div class="del_description">
+                <picture>
+                    <source srcset="images/tablet_delivery.png" media="(min-width: 768px)">
+                    <img src="images/delivery_man.png" alt="Фотография доставщика">
+                </picture>
+                <ul class="advantages">
+                    <li class="advantage_item">
+                        <article>
+                            <h3 class="advantage_num advantage_1">01</h3>
+                            <h3 class="advantage_name">ТЕРМОСУМКИ ДЛЯ СОХРАНЕНИЯ ТЕПЛА</h3>
+                            <p>
+                                Мы доставляем в специальных термосумках, 
+                                чтобы сохранить температуру и свежесть блюд
+                            </p>
+                        </article>
+                    </li>
+
+                    <li class="advantage_item advantage_2">
+                        <article>
+                            <h3 class="advantage_num">02</h3>
+                            <h3 class="advantage_name">ГОРЯЧЕЕ И СВЕЖЕЕ</h3>
+                            <p>
+                                Ваш заказ не успеет остыть и не потеряет своего вкуса в пути
+                            </p>
+                        </article>
+                    </li>
+
+                    <li class="advantage_item advantage_3">
+                        <article>
+                            <h3 class="advantage_num">03</h3>
+                            <h3 class="advantage_name">КАЧЕСТВО КАК В РЕСТОРАНЕ</h3>
+                            <p>
+                                Вы получите блюда в том виде, 
+                                в котором их приготовил повар 
+                                - свежими, вкусными и красивыми, 
+                                чтобы насладиться непревзойденным вкусом дома
+                            </p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+        <div class="head_container">
+            <p class="container_names">ОТЗЫВЫ</p>
+            <h2 class="head_title">
+                <span>БЕСЦЕННЫЕ ОТЗЫВЫ</span>
+                <span id="first_title_tablet">ДОКАЗЫВАЮЩИЕ НАШЕ МАСТЕРСТВО</span>  
+            </h2>
+        </div>
+        <div class="reviews_block">
+            <p class="review_description">
+                Мы гордимся доверием наших клиентов 
+                и ценим каждый отзыв, который вдохновляет 
+                нас становиться еще лучше
+            </p>
+            <div class="reviews_navigation">
+                <button class="previous"><img src="images/previous.svg" alt=""></button>
+                <button class="next"><img src="images/next.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="reviews_slider">
+            <ul class="scroll_photos">
+                <li>
+                    <div class="click_for">
+                        <p>Кликните<br>на отзыв, чтобы узнать больше</p>
+                        <img src="images/check_mark.svg" alt="Кликните на отзыв,чтобы узнать больше.">
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="review">
+                        <img src="images/review_1.png" alt="Фотография человека, оставившего отзыв.">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="review">
+                        <img src="images/review_2.png" alt="Фотография человека, оставившего отзыв.">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="review">
+                        <img src="images/review_3.png" alt="Фотография человека, оставившего отзыв.">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="review">
+                        <img src="images/review_4.png" alt="Фотография человека, оставившего отзыв.">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section class="stocks">
+        <div class="container">
+            <div class="head_container">
+                <p class="container_names">АКЦИИ</p>
+                <h2 class="head_title">
+                    <span>ОАЗИС ВЫГОДНЫХ</span>
+                    <span id="first_title_tablet">ПРЕДЛОЖЕНИЙ</span>  
+                </h2>
+            </div>
+            <div class="stock_top_list">
+                <ul class="stock_block">
+                    <li>
+                        <picture class="stock_photos">
+                            <img class="stock_photo" src="images/stock_food.png" alt="Фотография блюда по акции">
+                        </picture>
+                        <div class="stock_description">
+                            <h3>СКИДКА 15% НА ПЕРВЫЙ ЗАКАЗ</h3>
+                            <p class="stock_description2">Воспользуйтесь этой прекрасной возможностью и откройте для себя мир изысканных морских деликатесов, которыми славится наш ресторан</p>
+                        </div>
+                    </li>
+                </ul>
+            <button class="button_second_type orange_button">Забрать скидку</button>
+            <div class="stocks_navigation">
+                <button class="previous"><img src="images/previous.svg" alt=""></button>
+                <button class="next"><img src="images/next.svg" alt=""></button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation">
+        <div class="container">
+            <div class="head_container">
+                <p class="container_names">БРОНЬ</p>
+                <h2 class="head_title">
+                    <span>ЗАБРОНИРУЙТЕ СВОЕ МЕСТО</span>
+                    <span id="first_title_tablet">ЗА ЛУЧШИМ СТОЛОМ</span>  
+                </h2>
+            </div>
+            <div class="reservation_block">
+                <picture>
+                    <img src="images/reservation_food.png" alt="Фотография блюда">
+                </picture>
+                <form class="reservation_form" action="#" method="post">
+                    <label class="form name_form" for="name">
+                        Имя:
+                        <input type="text" name="name" id="name">
+                    </label>
+                    <label class="form phone_form" for="phone_number">
+                        Телефон:
+                        <input type="tel" name="phone_number" id="phone_number">
+                    </label>
+                    <label class="form date_form" for="date">
+                        Дата:
+                        <input type="date" name="date" id="date">
+                    </label>
+                    <label class="form time_form" for="time">
+                        Время:
+                        <input type="time" name="time" id="time">
+                    </label>
+                    <label class="form guests_form" for="guests">
+                        Кол-во гостей:
+                        <input type="number" name="guests" id="guests">
+                    </label>
+                    <label class="form wishes_form" for="wishes">
+                        Ваши пожелания:
+                        <textarea name="wishes" id="wishes"></textarea>
+                    </label>
+                    <button type="submit" id="submit_form" class="button_first_type orange_button">Забронировать</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="head_container">
+                <p class="container_names">КОНТАКТЫ</p>
+                <h2 class="head_title">
+                    <span>МОРСКАЯ АТМОСФЕРА,</span>
+                    <span id="first_title_tablet">ОБЪЕДИНЯЮЩАЯ ЛЮДЕЙ</span>  
+                </h2>
+            </div>
+            <div class="contacts_block">
+                <picture class="contacts_picture">
+                    <img src="images/contacts_photo.png" alt="Фотография из ресторана">
+                </picture>
+                <div class="contacts_text">
+                    <h3>ЕСЛИ У ВАС ОСТАЛИСЬ ВОПРОСЫ:</h3>
+                    <address>
+                        <div class="phone">
+                            <img src="images/phone_icon.svg" alt="Наш номер телефона">
+                            <a href="tel:+79654788976"><span>+7 (965) 478-89-76</span></a>
+                        </div>
+                        <div class="email">
+                            <img src="images/mail_icon.svg" alt="Наша почта">
+                            <a href="mailto:aquarim@gmail.com"><span>aquarim@gmail.com</span></a>
+                        </div>
+                    </address>
+                        <h3>АДРЕС:</h3>
+                    <address>
+                        <div class="address">
+                            <img src="images/location_icon.svg" alt="Иконка расположения">
+                            <span>г. Москва, ул. Тверская, д.8</span>
+                        </div>
+                    </address>
+                    <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ:</h3>
+                    <ul class="socials">
+                        <li><a href="#"><img src="images/instagram_icon.svg" alt="Инстаграмм."></a></li>
+                        <li><a href="#"><img src="images/telegram_icon.svg" alt="Теллеграм."></a></li>
+                        <li><a href="#"><img src="images/vk_icon.svg" alt="Вконтакте."></a></li>
+                        <li><a href="#"><img src="images/youtube_icon.svg" alt="Ютуб."></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container footer">
+        <div class="foot_navigation">
+            <p class="some_big">© 2018-2024 AQUARIM</p>
+            <nav>
+                <h3 class="foot_head">О РЕСТОРАНЕ</h3>
+                <ul class="foot_nav">
+                    <li class="button_nav"><a href="#">О шефе</a></li>
+                    <li class="button_nav"><a href="#">Галерея</a></li>
+                    <li class="button_nav"><a href="#">Новости</a></li>
+                    <li class="button_nav"><a href="#">Команда</a></li>
+                    <li class="button_nav"><a href="grid.html">Grid</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <h3 class="foot_head">ДЛЯ ПОСЕТИТЕЛЕЙ</h3>
+                <ul class="foot_nav">
+                    <li class="button_nav"><a href="#menu">Меню</a></li>
+                    <li class="button_nav"><a href="#delivery">Доставка и оплата</a></li>
+                    <li class="button_nav"><a href="#reviews">Отзывы</a></li>
+                    <li class="button_nav"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p class="footer_icon">AQUARIM</p>
+        <div class="site_info">
+            <a class="politics" href="#">Политика обработки персональных данных</a>
+            <a class="desing_by" href="#">Desing by @sshultse</a>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>

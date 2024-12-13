@@ -1,0 +1,202 @@
+/* Общие стили для HTML и BODY */
+html {
+    font-size: var(--font-size-base);
+}
+
+body {
+    font-family: 'Gilroy Light', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовков */
+h2 {
+    font-family: 'TRIAL Oceanic Regular';
+    font-weight: 500;
+    font-size: 5.6rem;
+    line-height: 1.05;
+}
+
+h3 {
+    font-family: 'TRIAL Oceanic Regular';
+    font-weight: 400;
+    font-size: 3.6rem;
+}
+
+.foot_navigation h3 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+/* Стили для ссылок */
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:visited {
+    color: inherit;
+}
+
+/* Стили для текстовых блоков */
+.text_logo {
+    font-family: 'TRIAL Oceanic Regular';
+    font-size: 2.8rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+/* Верхняя и нижняя части страницы */
+.top_part {
+    font-family: 'TRIAL Oceanic Regular';
+    font-size: 25.6rem;
+    line-height: 1;
+    color: var(--light-blue-text-color);
+    margin: 0;
+}
+
+.bottom_part {
+    margin: 2.5rem 0 0 0;
+}
+
+.bottom_part h2 {
+    font-family: 'TRIAL Oceanic Regular';
+    font-weight: 500;
+    font-size: 8rem;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Контейнеры с именами */
+.container_names {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/* Стили для иконок и элементов футера */
+.footer_icon {
+    font-family: 'TRIAL Oceanic Regular';
+    font-size: 25.6rem;
+    line-height: 1;
+    color: var(--background-color);
+    opacity: 30%;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+footer a {
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+/* Стили для кнопок */
+.button_first_type {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.button_second_type {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+/* Адреса и формы */
+address {
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.reservation_form {
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+/* Навигация */
+.main_nav {
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+.foot_nav {
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+/* Описание уровней и преимуществ */
+.tier_name {
+    line-height: 4.32rem;
+    font-family: 'TRIAL Oceanic Regular';
+    font-weight: 400;
+}
+
+.tier_price {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.tier_weight {
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.tier_description {
+    line-height: 2.16rem;
+}
+
+.advantage_name {
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+.advantage_num {
+    font-size: 3.6rem;
+    line-height: 1.05;
+}
+
+/* Описание отзывов и акций */
+.review_description {
+    line-height: 2.16rem;
+}
+
+.stock_description {
+    line-height: 4.32rem;
+}
+
+.stock_description2 {
+    line-height: 2.16rem;
+}
+
+/* Стили текста контактов */
+.contacts_text h3 {
+    line-height: 3.78rem;
+}
+
+
+/* Цвета чего-то, щас 4 утра, я уже ничего не понимаю */
+
+.menu_top_list {
+    background-color: #4164AB;
+}
+
+.stock_top_list {
+    background-color: #4164AB; 
+}
